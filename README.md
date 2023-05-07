@@ -7,6 +7,7 @@ This repository contains personal notes and code while participating in the Goog
 
 - Foundations of Data Science 
 - Python
+- Data Into Insight
 - Statistics
 - Regression Analysis
 - Machine Learning
