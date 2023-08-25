@@ -1,0 +1,23 @@
+column name,type,description
+[None],int,Index
+name,str,NBA player’s first and last name
+gp,int,Number of games played (in one season)
+min,int,Average number of minutes played per game
+pts,int,Average number of points scored per game
+fgm,int,Average number of field goals made per game
+fga,int,Average number of field goals attempted
+fg,int,Made Field goal percentage  
+3p_made,int,Average number of 3-point field goals per game
+3pa,int,Average number of 3-point field goals attempted per game
+3p,int,Made 3-point field goal percentage
+ftm,int,Average free throws made per game
+fta,int,Average free throws attempted per game
+ft,int,Made free throw percentage
+oreb,int,Average number of offensive rebounds per game
+dreb,int,Average number of defensive rebounds per game
+reb,int,Average rebounds per game
+ast,int,Average assists per game
+stl,int,Average steals per game
+blk,int,Average blocks per game 
+tov,int,Average turnovers per game
+target_5yrs,int,Players career duration was more than 5 years (0= yes 1=no)

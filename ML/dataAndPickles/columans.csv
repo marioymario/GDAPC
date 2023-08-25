@@ -1,0 +1,15 @@
+Column,TypeDescription, name
+RowNumber,int,Row numbers from 1 to 10,000'
+CustomerId,int,Customer’s unique ID assigned by bank
+Surname,str,Customer’s last name
+CreditScore,int,Customer’s credit score. This number can range from 300 to 850. 
+Geography,str,Customer’s country of residence
+Gender*,str,Categorical indicator
+Age,int,Customer’s age (years)
+Tenure,int,Number of years customer has been with bank
+Balance,float,Customer’s bank balance (Euros) 
+NumOfProducts,int,Number of products the customer has with the bank
+HasCrCard,bool,Indicates whether the customer has a credit card with the bank
+IsActiveMember,bool,Indicates whether the customer is considered active
+EstimatedSalary,float,Customer’s estimated annual salary (Euros)
+Exited,bool,Indicates whether the customer churned (left the bank)
