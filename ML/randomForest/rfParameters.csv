@@ -1,0 +1,9 @@
+Parameter,Description,Possible Values,Best Options
+n_estimators,The number of trees in the forest.,"Integer, e.g. 100, 200, 500",100-1000
+max_depth,The maximum depth of the trees in the forest.,"Integer, e.g. 3, 5, 10",5-10
+min_samples_split,The minimum number of samples required to split a node in the tree.,"Integer, e.g. 2, 5, 10",2-10
+min_samples_leaf,The minimum number of samples required to be at a leaf node.,"Integer, e.g. 1, 2, 5",1-5
+max_features,The number of features to consider when looking for the best split.,"Integer, ""auto"", ""sqrt"", ""log2""","""auto"""
+criterion,The function to measure the quality of a split.,"""gini"", ""entropy""","""gini"""
+bootstrap,Whether to bootstrap the samples when building the trees.,"Boolean, True, False",TRUE
+oob_score,Whether to calculate an out-of-bag score.,"Boolean, True, False",TRUE
